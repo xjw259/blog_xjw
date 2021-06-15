@@ -36,6 +36,6 @@ npm install # or yarn install
 npm run dev # or yarn dev
 ```
 ## 许可证
-[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
+[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/main/LICENSE)
 
 Copyright (c) 2019-present Evan Xu
