@@ -13,7 +13,7 @@ cd docs/.vuepress/dist
 echo 'blog.boyhack.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:crackzj/blog.git
+  githubUrl=git@github.com:xjw259/blog_xjw.git
 else
   msg='来自github actions的自动部署'
   githubUrl=https://xjw259:${ACCESS_TOKEN}@github.com/xjw259/blog_xjw.git
