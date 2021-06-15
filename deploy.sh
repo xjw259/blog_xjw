@@ -11,7 +11,7 @@ cd docs/.vuepress/dist
 
 # deploy to github
 echo 'blog.code-ji.cn' > CNAME
-if [ -z "$ACCESS_TOKEN" ]; then
+if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:xjw259/blog_xjw.git
 else
