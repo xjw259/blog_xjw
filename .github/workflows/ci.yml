@@ -22,7 +22,7 @@ jobs:
         with:
           node-version:  ${{ matrix.node }}
       - name: Install dependencies
-        run: npm
+        run: npm install
       - name: Build VuePress
         run: npm run build
       - name: Deploy to GitHub Pages
