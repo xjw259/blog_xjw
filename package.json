@@ -1,5 +1,5 @@
 {
-  "name": "crackzj-blog",
+  "name": "xjw-blog",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
